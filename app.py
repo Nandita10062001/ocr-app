@@ -13,7 +13,7 @@ st.set_page_config(
 
 st.markdown("""
     # <img src="data:image/png;base64,{}" width="50" style="vertical-align: -12px;"> Llava:7b OCR
-""".format(base64.b64encode(open("./images/gemma3.png", "rb").read()).decode()), unsafe_allow_html=True)
+""".format(base64.b64encode(open("./images/ollama.png", "rb").read()).decode()), unsafe_allow_html=True)
 
 col1, col2 = st.columns([6,1])
 with col2:
